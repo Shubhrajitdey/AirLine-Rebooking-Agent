@@ -1,15 +1,8 @@
 # Problem Statement: Airline Rebooking Agent
 
-> **Source Link**: [Gemini Conversation (Session e4e2587d67a75ffa)](https://gemini.google.com/app/e4e2587d67a75ffa?hl=en-IN)
-
----
-
 ## 1. Original Prompt / Question
 *(Note: Because direct access to private Gemini chat sessions requires browser authentication, paste the exact question or prompt from your Gemini session below if it differs from the specification.)*
 
-```markdown
-[PASTE EXACT PROMPT FROM GEMINI SESSION HERE]
-```
 
 ---
 

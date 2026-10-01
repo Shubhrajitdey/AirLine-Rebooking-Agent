@@ -9,16 +9,17 @@
         "phone": "+1-555-0199",
         "loyalty_tier": "Platinum"
       },
-      "flight_number": "SK-402",
+      "flight_number": "SK-404",
       "origin": "SFO",
       "destination": "JFK",
-      "scheduled_departure": "2026-10-02T08:00:00",
-      "scheduled_arrival": "2026-10-02T16:30:00",
-      "status": "CANCELLED",
-      "disruption_reason": "Severe Weather / Nor'easter",
+      "scheduled_departure": "2026-10-02T11:30:00",
+      "scheduled_arrival": "2026-10-02T20:00:00",
+      "status": "CONFIRMED",
+      "disruption_reason": null,
       "cabin_class": "Economy",
-      "seat": "12A",
-      "checked_bags": 2
+      "seat": "14A (Aisle)",
+      "checked_bags": 2,
+      "delay_minutes": 0
     },
     "SKY202": {
       "pnr": "SKY202",
@@ -69,7 +70,7 @@
       "departure_time": "2026-10-02T11:30:00",
       "arrival_time": "2026-10-02T20:00:00",
       "available_seats": {
-        "Economy": 8,
+        "Economy": 7,
         "Business": 2
       },
       "aircraft": "Boeing 787-9",
