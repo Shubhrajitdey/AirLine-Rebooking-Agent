@@ -37,21 +37,17 @@ Airline Rebooking Agent/
 
 ### 2. Set Up Virtual Environment
 ```bash
-python3 -m venv venv
+python3 -m venv .venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
 ### 3. Configure API Key
-Copy the example `.env` file and insert your Gemini API Key:
-```bash
-cp .env.example .env
-```
-Edit `.env`:
-```env
+Insert your Gemini API Key `.env` file:
+
 GEMINI_API_KEY=your_actual_gemini_api_key
 GEMINI_MODEL=gemini-2.5-flash
-```
+
 
 > **Note**: If `GEMINI_API_KEY` is not set, the agent operates in an interactive **Demo / Mock Mode** so you can preview the CLI and workflow immediately.
 
