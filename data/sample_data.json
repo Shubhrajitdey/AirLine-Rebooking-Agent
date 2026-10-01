@@ -1,0 +1,131 @@
+{
+  "bookings": {
+    "SKY101": {
+      "pnr": "SKY101",
+      "passenger": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "phone": "+1-555-0199",
+        "loyalty_tier": "Platinum"
+      },
+      "flight_number": "SK-402",
+      "origin": "SFO",
+      "destination": "JFK",
+      "scheduled_departure": "2026-10-02T08:00:00",
+      "scheduled_arrival": "2026-10-02T16:30:00",
+      "status": "CANCELLED",
+      "disruption_reason": "Severe Weather / Nor'easter",
+      "cabin_class": "Economy",
+      "seat": "12A",
+      "checked_bags": 2
+    },
+    "SKY202": {
+      "pnr": "SKY202",
+      "passenger": {
+        "first_name": "Sarah",
+        "last_name": "Connor",
+        "email": "sarah.c@example.com",
+        "phone": "+1-555-0144",
+        "loyalty_tier": "Silver"
+      },
+      "flight_number": "SK-510",
+      "origin": "ORD",
+      "destination": "LAX",
+      "scheduled_departure": "2026-10-02T10:15:00",
+      "scheduled_arrival": "2026-10-02T12:45:00",
+      "status": "DELAYED",
+      "delay_minutes": 240,
+      "disruption_reason": "Aircraft Mechanical Maintenance",
+      "cabin_class": "Economy",
+      "seat": "24C",
+      "checked_bags": 1
+    },
+    "SKY303": {
+      "pnr": "SKY303",
+      "passenger": {
+        "first_name": "David",
+        "last_name": "Smith",
+        "email": "david.smith@example.com",
+        "phone": "+1-555-0177",
+        "loyalty_tier": "Regular"
+      },
+      "flight_number": "SK-800",
+      "origin": "SEA",
+      "destination": "MIA",
+      "scheduled_departure": "2026-10-02T14:00:00",
+      "scheduled_arrival": "2026-10-02T22:30:00",
+      "status": "ON_TIME",
+      "cabin_class": "Business",
+      "seat": "2B",
+      "checked_bags": 0
+    }
+  },
+  "flights": [
+    {
+      "flight_number": "SK-404",
+      "origin": "SFO",
+      "destination": "JFK",
+      "departure_time": "2026-10-02T11:30:00",
+      "arrival_time": "2026-10-02T20:00:00",
+      "available_seats": {
+        "Economy": 8,
+        "Business": 2
+      },
+      "aircraft": "Boeing 787-9",
+      "is_direct": true
+    },
+    {
+      "flight_number": "SK-406",
+      "origin": "SFO",
+      "destination": "JFK",
+      "departure_time": "2026-10-02T16:00:00",
+      "arrival_time": "2026-10-03T00:30:00",
+      "available_seats": {
+        "Economy": 14,
+        "Business": 0
+      },
+      "aircraft": "Airbus A350",
+      "is_direct": true
+    },
+    {
+      "flight_number": "SK-410",
+      "origin": "SFO",
+      "destination": "JFK",
+      "departure_time": "2026-10-03T07:00:00",
+      "arrival_time": "2026-10-03T15:30:00",
+      "available_seats": {
+        "Economy": 22,
+        "Business": 6
+      },
+      "aircraft": "Boeing 777-300ER",
+      "is_direct": true
+    },
+    {
+      "flight_number": "SK-512",
+      "origin": "ORD",
+      "destination": "LAX",
+      "departure_time": "2026-10-02T13:45:00",
+      "arrival_time": "2026-10-02T16:15:00",
+      "available_seats": {
+        "Economy": 5,
+        "Business": 1
+      },
+      "aircraft": "Boeing 737 MAX 9",
+      "is_direct": true
+    },
+    {
+      "flight_number": "SK-518",
+      "origin": "ORD",
+      "destination": "LAX",
+      "departure_time": "2026-10-02T18:00:00",
+      "arrival_time": "2026-10-02T20:30:00",
+      "available_seats": {
+        "Economy": 18,
+        "Business": 4
+      },
+      "aircraft": "Boeing 737-800",
+      "is_direct": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Google GenAI SDK
+google-genai>=0.1.1
+
+# Data modeling & Validation
+pydantic>=2.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Rich CLI formatting
+rich>=13.0.0
+
+# Testing
+pytest>=7.0.0
