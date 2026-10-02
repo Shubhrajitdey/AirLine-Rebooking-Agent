@@ -13,7 +13,7 @@ class InterpreterAgent:
         self.model = "gemini-2.5-flash"
 
     def invoke(self, user_query: str) -> str:
-        prompt = self.template.format(user_query=user_query)
+        prompt = self.template.replace("{user_query}", user_query)
         response = self.client.models.generate_content(
             model=self.model,
             contents=prompt
